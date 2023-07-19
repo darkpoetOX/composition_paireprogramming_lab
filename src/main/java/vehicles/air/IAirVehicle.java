@@ -1,4 +1,9 @@
 package vehicles.air;
 
-public interface IAirVehicle {
+import vehicles.IVehicle;
+
+public interface IAirVehicle extends IVehicle {
+    int getAltitude();
+    void setAltitude();
+    
 }
