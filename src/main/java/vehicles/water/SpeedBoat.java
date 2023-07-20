@@ -21,10 +21,6 @@ public class SpeedBoat extends Vehicle implements IWaterVehicle, IMotorised {
         return hullType;
     }
 
-    @Override
-    public void setHullType() {
-
-    }
 
     public void setHullType(String hullType) {
         this.hullType = hullType;

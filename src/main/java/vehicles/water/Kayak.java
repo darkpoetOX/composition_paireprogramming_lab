@@ -17,7 +17,7 @@ public class Kayak extends Vehicle implements IWaterVehicle {
         return this.hullType;
     }
 
-    
+
     public void setHullType(String hullType) {
         this.hullType = hullType;
     }
