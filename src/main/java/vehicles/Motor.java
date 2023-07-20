@@ -12,32 +12,26 @@ public class Motor implements IMotorised{
     }
 
 
-    @Override
     public int getFuel() {
         return this.fuel;
     }
 
-    @Override
     public void setFuel(int fuel) {
         this.fuel = fuel;
     }
 
-    @Override
     public int getHp() {
         return this.hp;
     }
 
-    @Override
     public void setHp(int hp) {
         this.hp = hp;
     }
 
-    @Override
     public void startEngine() {
         System.out.println("motor engine run");
     }
 
-    @Override
     public void stopEngine() {
         System.out.println("motor engine stop running");
     }
